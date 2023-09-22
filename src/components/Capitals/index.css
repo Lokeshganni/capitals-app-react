@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.main-container {
+  background-color: #93c5fd;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  padding: 35px 26px;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-container {
+    width: 55%;
+    padding: 55px 70px;
+  }
+}
+
+.heading {
+  color: #323f4b;
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+}
+
+.select-tag {
+  margin-right: 10px;
+  border-color: #cbd2d9;
+  padding: 0 8px;
+  background-color: transparent;
+  outline: none;
+  color: #323f4b;
+  font-weight: bold;
+  height: 35px;
+}
+
+.capital-para {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .capital-para {
+    font-size: 16px;
+  }
+}
+
+.para {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: bold;
+}
